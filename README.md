@@ -65,8 +65,7 @@ We are not responsible for any misuse or damage caused by this program. use this
 
 Changelog
 ----
-6/7/2021
-###### Headers
+###### Headers (6/7/2021)
 * Added user-agent headers to requests.
 
 Community
