@@ -1,7 +1,7 @@
 # bfShark
 
 ![GitHub repository](https://img.shields.io/badge/haithamaouati-bfShark-blue?style=flat-square&logo=github)
-![GitHub version](https://img.shields.io/badge/version-1.0-yellow?style=flat-square)
+![GitHub version](https://img.shields.io/badge/version-1.1-yellow?style=flat-square)
 
 A simple login brute force tool.
 
