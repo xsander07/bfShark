@@ -59,14 +59,14 @@ Environments
 * Linux
 * macOS
 
-Disclaimer
-----
-We are not responsible for any misuse or damage caused by this program. use this tool at your own risk!
-
 Changelog
 ----
 ###### Headers (6/7/2021)
 * Added user-agent headers to requests.
+
+Disclaimer
+----
+We are not responsible for any misuse or damage caused by this program. use this tool at your own risk!
 
 Community
 ----
