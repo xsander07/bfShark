@@ -63,6 +63,12 @@ Disclaimer
 ----
 We are not responsible for any misuse or damage caused by this program. use this tool at your own risk!
 
+Changelog
+----
+6/7/2021
+###### Headers
+* Added user-agent headers to requests.
+
 Community
 ----
 Join us [**Elite Crew**](https://www.facebook.com/groups/elitecrew1/)
